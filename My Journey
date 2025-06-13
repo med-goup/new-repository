@@ -1,0 +1,164 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goups'Journey</title>
+  <figure>
+    <img src="https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg" alt="technology-computer-code-javascript-1283624">
+</figure>
+</head>
+<body> 
+  <header>
+    <h1>Welcome to Goups, Programming Journey</h1>
+    <p>This Website is dedicated to documenting my Programming Journey</p>
+    <nav>
+        <ol>
+            <li><a href="#section1">learning html fundamentals</a></li>
+            <li><a href="#section2">learning css fundamentals</a></li>
+            <li><a href="#section3">learning javascript fundamentals</a></li>
+        </ol>
+    </nav>
+  </header>
+    <main>
+        <section id="Section1">
+            <h2>learning html fundamentals</h2>
+            <p>This is the content for Section 1.</p>
+            <section>
+                <h3><time datetime="2025-06-09">Starting from scratch</time></h3>
+                <p>The first thing u need to learn about html is its structure, which consists of <strong>elements</strong> and <strong>tags</strong>.</p>
+                <pre><code>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html lang="en"&gt;
+                    &lt;head&gt;
+                        &lt;meta charset="UTF-8"&gt;
+                        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                        &lt;title&gt;Document&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        &lt;h1&gt;Hello, World!&lt;/h1&gt;
+                        &lt;p&gt;This is my first HTML document.&lt;/p&gt;
+                        &lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;
+                        &lt;img src="image.jpg" alt="An example image"&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;    
+                </code>
+
+                </pre>
+            </section>
+            <section>
+                <h3><time datetime="2025-06-10">Diving Deeper</time></h3>
+                <p>Once you're comfortable with the basics, you can start learning about <strong>html semantics</strong>.</p>
+                <pre><code>
+                    &lt;header&gt;Header content&lt;/header&gt;
+                    &lt;nav&gt;Navigation links&lt;/nav&gt;
+                    &lt;main&gt;Main content area&lt;/main&gt; 
+                    &lt;article&gt;An independent piece of content&lt;/article&gt;
+                    &lt;section&gt;A thematic grouping of content&lt;/section&gt;
+                    &lt;footer&gt;Footer content&lt;/footer&gt;
+            </section>
+            <section>
+                <h3><time datetime="2025-06-11">Practicing what you've learned</time></h3>
+                <p><strong>Practice makes perfect!</strong> Start building your own HTML pages and experiment with different elements and attributes, btw this is me Practicing</p>
+                <pre><code>
+                    &lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;Event Hub&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;header&gt;
+    &lt;h1&gt;Event Hub&lt;/h1&gt;
+    &lt;nav&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href="#upcoming-events"&gt;Upcoming Events&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#past-events"&gt;Past Events&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/nav&gt;
+&lt;/header&gt;
+&lt;main&gt;
+  &lt;section id="upcoming-events"&gt;
+      &lt;h2&gt;Upcoming Events&lt;/h2&gt;
+      &lt;article&gt;
+          &lt;h3&gt;title1&lt;/h3&gt;
+          &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quod, voluptates, quae, quos quibusdam dolorum quia nemo repudiandae quidem voluptatum quas. Quisquam quod, voluptates, quae, quos quibusdam dolorum quia nemo repudiandae quidem voluptatum quas.&lt;/p&gt;
+      &lt;/article&gt;
+      &lt;article&gt;
+           &lt;h3&gt;title2&lt;/h3&gt;
+          &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quod, voluptates, quae, quos quibusdam dolorum quia nemo repudiandae quidem voluptatum quas. Quisquam quod, voluptates, quae, quos quibusdam dolorum quia nemo repudiandae quidem voluptatum quas.&lt;/p&gt;
+      &lt;/article&gt;
+  &lt;/section&gt;
+  &lt;section id="past-events"&gt;
+      &lt;h2&gt;Past Events&lt;/h2&gt;
+      &lt;article&gt;
+          &lt;h3&gt;title1&lt;/h3&gt;
+          &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quod, voluptates, quae, quos quibusdam dolorum quia nemo repudiandae quidem voluptatum quas. Quisquam quod, voluptates, quae, quos quibusdam dolorum quia nemo repudiandae quidem voluptatum quas.&lt;/p&gt;
+          &lt;img src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg" alt="past"&gt;
+      &lt;/article&gt;
+
+      &lt;article&gt;
+           &lt;h3&gt;title1&lt;/h3&gt;
+          &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quod, voluptates, quae, quos quibusdam dolorum quia nemo repudiandae quidem voluptatum quas. Quisquam quod, voluptates, quae, quos quibusdam dolorum quia nemo repudiandae quidem voluptatum quas.&lt;/p&gt;
+          &lt;img src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg" alt="past"&gt;
+      &lt;/article&gt;
+    &lt;/section&gt;
+
+  &lt;/section&gt;
+&lt;/main&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+                </code>
+
+                </pre>
+            </section>
+            <section>
+                <h3>Advanced Topics</h3>
+                <p><strong>Explore advanced HTML concepts</strong> such as forms, APIs, and web accessibility.</p>
+                <p>and that is what m currently working on</p>
+            </section>
+        </section>
+        <section id="Section2">
+            <h2>learning css fundamentals</h2>
+            <p>This is the content for Section 2.</p>
+            <section>
+                <h3>Subsection 2.1</h3>
+                <p>This is the content for Subsection 2.1.</p>
+            </section>
+            <section>
+                <h3>Subsection 2.2</h3>
+                <p>This is the content for Subsection 2.2.</p>
+            </section>
+            <section>
+                <h3>Subsection 2.3</h3>
+                <p>This is the content for Subsection 2.3.</p>
+            </section>
+        </section>
+        <section id="Section3">
+            <h2>learning javascript fundamentals</h2>
+            <p>This is the content for Section 3.</p>
+            <section>
+                <h3>Subsection 3.1</h3>
+                <p>This is the content for Subsection 3.1.</p>
+            </section>
+            <section>
+                <h3>Subsection 3.2</h3>
+                <p>This is the content for Subsection 3.2.</p>
+            </section>
+            <section>
+                <h3>Subsection 3.3</h3>
+                <p>This is the content for Subsection 3.3.</p>
+            </section>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+
+
+</html>
